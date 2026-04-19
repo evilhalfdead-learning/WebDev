@@ -10,7 +10,7 @@ h1{
     font-weight: bold;
     color: khaki;
     text-align: center;
-    background-image: url('./resources/images/pattern.jpeg');
+    background-image: url('https://github.com/evilhalfdead-learning/WebDev/blob/main/Desmoto%2Fresources%2Fimages%2Fpattern.jpeg');
 }
 
 #brushes h2 {
