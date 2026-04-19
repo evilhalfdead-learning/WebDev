@@ -1,0 +1,30 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #222;
+    color: #ccc;
+    margin: 10px;
+}
+
+h1 {
+  color: #e40;
+}
+
+
+p, 
+li {
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+button {
+  color: tan;
+  background-color: #666;
+  font-weight: bold;
+}
