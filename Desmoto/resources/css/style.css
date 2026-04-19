@@ -10,7 +10,7 @@ h1{
     font-weight: bold;
     color: khaki;
     text-align: center;
-    background-image: url('C:/Users/evilh/Code Tests/WebDev/projects/Desmoto/resources/images/pattern.jpeg');
+    background-image: url('./resources/images/pattern.jpeg');
 }
 
 #brushes h2 {
