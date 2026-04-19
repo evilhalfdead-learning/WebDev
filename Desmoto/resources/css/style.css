@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+p {
+    font-family: Helvetica;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url('C:/Users/evilh/Code Tests/WebDev/projects/Desmoto/resources/images/pattern.jpeg');
+}
+
+#brushes h2 {
+    background-color: springgreen;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
+}
+
+#frames h2 {
+    background-color: lightcoral;
+}
+
+#paint h2 {
+    background-color: skyblue;
+}
