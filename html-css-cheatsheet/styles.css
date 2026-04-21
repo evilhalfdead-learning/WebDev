@@ -1,5 +1,6 @@
 * {
     text-align: center;
+    background-color: #222;
 }
 
 h1 {
@@ -7,6 +8,15 @@ h1 {
     color: #e40;
     border: 1px solid #e40;
     padding: 5px 5px;
-    width: 425px;
     justify-self: center;
+}
+
+h2 {
+    color: #e40;
+}
+
+#table table {
+    color: #999;
+    justify-self: center;
+    border: 1px solid #e40;
 }
