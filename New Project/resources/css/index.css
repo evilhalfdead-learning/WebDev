@@ -30,10 +30,16 @@ a {
   color: tan;
   background-color: #666;
   font-weight: bold;
-  border: 5px;
   border-radius: 2px;
 }
 
 .muffin:hover {
   color: #6d4702;
+}
+
+.convert {
+  color: tan;
+  background-color: #666;
+  font-weight: bold;
+  border-radius: 2px;
 }
