@@ -30,6 +30,7 @@ a {
   color: tan;
   background-color: #666;
   font-weight: bold;
+  border: 5px;
   border-radius: 2px;
 }
 
