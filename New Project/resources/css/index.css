@@ -26,8 +26,13 @@ a {
   text-decoration: none;
 }
 
-button {
+.muffin {
   color: tan;
   background-color: #666;
   font-weight: bold;
+  border-radius: 2px;
+}
+
+.muffin:hover {
+  color: burlywood;
 }
