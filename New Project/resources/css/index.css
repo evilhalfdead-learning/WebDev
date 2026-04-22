@@ -43,3 +43,7 @@ a {
   font-weight: bold;
   border-radius: 2px;
 }
+
+.convert:hover {
+  color: #ccc
+}
