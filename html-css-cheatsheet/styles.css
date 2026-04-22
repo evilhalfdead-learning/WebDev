@@ -15,8 +15,13 @@ h2 {
     color: #e40;
 }
 
-#table table {
+table {
+    margin: 10px
+}
+
+table, th, td {
     color: #999;
     justify-self: center;
     border: 1px solid #e40;
+    border-collapse: collapse;
 }
