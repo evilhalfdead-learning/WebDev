@@ -75,7 +75,8 @@ a {
 }
 
 .converter {
-  justify-self: center;
+  position: relative;
+  justify-content: center;
 }
 
 .learning {
@@ -89,5 +90,6 @@ a {
 }
 
 .muffinbutton {
-  justify-self: center;
+  position: relative;
+  justify-content: center;
 }
