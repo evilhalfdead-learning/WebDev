@@ -75,21 +75,17 @@ a {
 }
 
 .converter {
-  position: relative;
-  justify-content: center;
+  justify-self: center;
 }
 
 .learning {
-  position: absolute;
-  left: 0;
+  margin: left;
 }
 
 .hated {
-  position: absolute;
-  right: 0;
+  margin: right;
 }
 
 .muffinbutton {
-  position: relative;
-  justify-content: center;
+  justify-self: center;
 }
