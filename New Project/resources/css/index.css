@@ -78,12 +78,12 @@ a {
   justify-self: center;
 }
 
-.learning {
+.learning ul {
   position: relative;
   text-align: left;
 }
 
-.hated {
+.hated ol {
   position: relative;
   text-align: right;
 }
