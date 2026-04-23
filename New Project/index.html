@@ -6,32 +6,46 @@
         <title>This is a test!</title>
         <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
         <script src="./resources/javascript/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Grenze:ital,wght@0,100..900;1,100..900&family=Underdog&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Half Dead</h1>
-        <p>I'm learning to code. My goals include:</p>
-        <ul>
-            <li>Learn to code</li>
-            <li>Get a job</li>
-            <li>Pay the bills</li>
-        </ul>
-        <p>Most hated subjects include:</p>
-        <ol>
-            <li>CLI</li>
-        </ol>
-        <p>This is one of my favorite websites: <a href="https://www.google.com/" target="_blank">Google</a></p>
-        <form action="./resources/Images/muffin-button.gif" target="_blank">
-            <button class="muffin">Muffin</button>
-        </form>
-        <h2>Unit Converter</h2>
-        <input type="number" placeholder="Enter a number" id="userInput">
-        <select id="unit">
-          <option value="kmToMiles">Kilometers to Miles</option>
-          <option value="milesToKm">Miles to Kilometers</option>
-        </select>
-        <button class="convert" onclick="convert()">Convert</button>
-        <p>Result: <span id="resultElement">0</span></p>
-
+        <header class="header">
+            <h1>Half Dead</h1>
+        </header>
+        <main>
+            <article class="learning">
+                <p>I'm learning to code. My goals include:</p>
+                <ul>
+                    <li>Learn to code</li>
+                    <li>Get a job</li>
+                    <li>Pay the bills</li>
+                </ul>
+            </article>
+            <article class="hated">
+                <p>Most hated subjects include:</p>
+                <ol>
+                    <li>CLI</li>
+                </ol>
+                <p>This is one of my favorite websites: <a href="https://www.google.com/" target="_blank">Google</a></p>
+            </article>
+            <article class="muffinbutton">
+                <form action="./resources/Images/muffin-button.gif" target="_blank">
+                    <button class="muffin">Muffin</button>
+                </form>
+            </article>
+            <article class="converter">
+                <h2>Unit Converter</h2>
+                <input type="number" placeholder="Enter a number" id="userInput">
+                <select id="unit">
+                <option value="kmToMiles">Kilometers to Miles</option>
+                <option value="milesToKm">Miles to Kilometers</option>
+                </select>
+                <button class="convert" onclick="convert()">Convert</button>
+                <p>Result: <span id="resultElement">0</span></p>
+            </article>
+        </main>
 <!== 
 .breadcrumb {
   text-align: left;

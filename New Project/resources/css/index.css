@@ -1,11 +1,34 @@
-* {
-  font-family: Helvetica, Arial, sans-serif;
+.underdog-regular {
+  font-family: "Underdog", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.creepster-regular {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.grenze-<uniquifier> {
+  font-family: "Grenze", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+main {
+  font-family: 'Underdog', sans-serif;
 }
 
 body {
     background-color: #222;
     color: #ccc;
     margin: 10px;
+}
+
+.header {
+  font-family: 'Creepster', serif;
 }
 
 h1 {
@@ -29,8 +52,9 @@ a {
 .muffin {
   color: tan;
   background-color: #666;
-  font-weight: bold;
   border-radius: 2px;
+  font-family: 'Grenze', serif;
+  font-weight: bold;
 }
 
 .muffin:hover {
@@ -40,10 +64,27 @@ a {
 .convert {
   color: tan;
   background-color: #666;
-  font-weight: bold;
   border-radius: 2px;
+  font-family: 'Grenze', serif;
+  font-weight: bold;
 }
 
 .convert:hover {
   color: #ccc
+}
+
+.converter {
+  justify-self: center;
+}
+
+.learning {
+  float: left;
+}
+
+.hated {
+  float: right;
+}
+
+.muffinbutton {
+  justify-self: center;
 }
