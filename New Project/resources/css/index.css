@@ -78,12 +78,12 @@ a {
   justify-self: center;
 }
 
-.learning ul {
+.learning {
   display: flex;
   justify-content: flex-start;
 }
 
-.hated ol {
+.hated {
   display: flex;
   justify-content: flex-end;
 }
