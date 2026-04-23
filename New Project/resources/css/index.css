@@ -24,7 +24,6 @@ main {
 body {
     background-color: #222;
     color: #ccc;
-    margin: 10px;
 }
 
 .header {
@@ -36,12 +35,11 @@ h1 {
   border: 2px solid #e40;
   font-size: 64px;
   justify-self: center;
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 
 
-p, 
-li {
+p, li {
   font-size: 18px;
 }
 
@@ -75,17 +73,22 @@ a {
 }
 
 .converter {
+  display: block;
+  position: relative;
   justify-self: center;
 }
 
 .learning {
-  margin: left;
+  display: block;
 }
 
 .hated {
-  margin: right;
+  display: block;
+  flex-direction: column;
+  float: right;
 }
 
 .muffinbutton {
   justify-self: center;
+  display: block;
 }
