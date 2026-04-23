@@ -79,11 +79,11 @@ a {
 }
 
 .learning {
-  float: left;
+  position: relative left;
 }
 
 .hated {
-  float: right;
+  position: relative right;
 }
 
 .muffinbutton {
