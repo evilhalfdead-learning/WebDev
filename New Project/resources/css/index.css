@@ -79,13 +79,13 @@ a {
 }
 
 .learning ul {
-  position: relative;
-  text-align: left;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .hated ol {
-  position: relative;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .muffinbutton {
