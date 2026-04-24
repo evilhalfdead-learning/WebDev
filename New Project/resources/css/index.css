@@ -106,3 +106,7 @@ a {
   justify-content: space-between;
   width: 100%;
 }
+
+#converter {
+  height: 100px;
+}
