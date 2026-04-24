@@ -25,6 +25,7 @@ body {
     background-color: #222;
     color: #ccc;
     line-height: 1.5;
+    display: flex;
 }
 
 .header {
@@ -35,7 +36,7 @@ h1 {
   color: #e40;
   border: 2px solid #e40;
   font-size: 64px;
-  justify-self: center;
+  justify-content: center;
   padding: 0 30px;
 }
 
@@ -79,7 +80,7 @@ a {
 .converter {
   display: block;
   position: relative;
-  justify-self: center;
+  justify-content: center;
   font-size: 18px;
 }
 
@@ -97,7 +98,7 @@ a {
 }
 
 .muffinbutton {
-  justify-self: center;
+  justify-content: center;
   display: block;
 }
 
