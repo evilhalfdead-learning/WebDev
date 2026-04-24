@@ -108,5 +108,7 @@ a {
 }
 
 #converter {
-  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
 }
