@@ -24,6 +24,7 @@ main {
 body {
     background-color: #222;
     color: #ccc;
+    line-height: 1.5;
 }
 
 .header {
@@ -35,7 +36,7 @@ h1 {
   border: 2px solid #e40;
   font-size: 64px;
   justify-self: center;
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 
@@ -54,6 +55,8 @@ a {
   border-radius: 2px;
   font-family: 'Grenze', serif;
   font-weight: bold;
+  font-size: 32px;
+  cursor: pointer;
 }
 
 .muffin:hover {
@@ -66,6 +69,7 @@ a {
   border-radius: 2px;
   font-family: 'Grenze', serif;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .convert:hover {
@@ -76,19 +80,29 @@ a {
   display: block;
   position: relative;
   justify-self: center;
+  font-size: 18px;
+}
+
+.converter h2 {
+  font-size: 32px;
+  text-align: center;
 }
 
 .learning {
-  display: block;
+  flex-direction: column;
 }
 
 .hated {
-  display: block;
   flex-direction: column;
-  float: right;
 }
 
 .muffinbutton {
   justify-self: center;
   display: block;
+}
+
+#hmm {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
 }
