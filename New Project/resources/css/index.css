@@ -25,8 +25,6 @@ body {
     background-color: #222;
     color: #ccc;
     line-height: 1.5;
-    display: flex;
-    clear: both;
 }
 
 .header {
@@ -34,6 +32,7 @@ body {
 }
 
 h1 {
+  display: flex;
   color: #e40;
   border: 2px solid #e40;
   font-size: 64px;
@@ -100,7 +99,7 @@ a {
 
 .muffinbutton {
   justify-content: center;
-  display: block;
+  display: flex;
 }
 
 #hmm {
