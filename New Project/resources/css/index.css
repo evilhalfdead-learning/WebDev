@@ -55,11 +55,12 @@ a {
 .muffin {
   color: tan;
   background-color: #666;
-  border-radius: 2px;
+  border-radius: 5px;
   font-family: 'Grenze', serif;
   font-weight: bold;
   font-size: 32px;
   cursor: pointer;
+  padding: 0 30px;
 }
 
 .muffin:hover {
@@ -69,7 +70,7 @@ a {
 .convert {
   color: tan;
   background-color: #666;
-  border-radius: 2px;
+  border-radius: 5px;
   font-family: 'Grenze', serif;
   font-weight: bold;
   cursor: pointer;
