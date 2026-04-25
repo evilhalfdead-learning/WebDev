@@ -73,6 +73,7 @@ a {
   font-family: 'Grenze', serif;
   font-weight: bold;
   cursor: pointer;
+  width: 150px;
 }
 
 .convert:hover {
