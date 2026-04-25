@@ -74,6 +74,7 @@ a {
   font-weight: bold;
   cursor: pointer;
   width: 150px;
+  font-size: 32px;
 }
 
 .convert:hover {
