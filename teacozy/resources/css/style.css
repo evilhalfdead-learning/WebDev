@@ -60,7 +60,7 @@ main {
 }
 
 #locations {
-  background-image: url("../images/locationsbg.jpg")
+  background-image: url("../images/locationsbg.jpg");
   height: 500px;
   width: 1000px;
   display: inline-flex;
