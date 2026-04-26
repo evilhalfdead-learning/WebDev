@@ -65,10 +65,12 @@ main {
   width: 1000px;
   display: inline-flex;
   flex-flow: row nowrap;
+  align-content: center;
 }
 
 #locations .loc {
   width: 300px;
+  opacity: 0.9;
 }
 
 .footer {
