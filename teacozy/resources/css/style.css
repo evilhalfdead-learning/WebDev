@@ -12,7 +12,7 @@ body {
     height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1;
 }
