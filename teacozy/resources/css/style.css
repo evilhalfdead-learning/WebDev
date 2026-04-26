@@ -48,7 +48,7 @@ main {
 }
 
 #tea {
-  display: inline-flex;
+  display: flex;
   flex-flow: row wrap;
   width: 1000px;
   text-align: center;
