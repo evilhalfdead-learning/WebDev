@@ -72,10 +72,12 @@ main {
 }
 
 .footer {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
+  height: 300px;
 }
 
 #copyright {
   text-align: left;
+  margin: 20px;
 }
