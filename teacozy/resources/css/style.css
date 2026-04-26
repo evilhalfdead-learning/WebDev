@@ -78,9 +78,13 @@ main {
   padding: 15px 20px 0 20px;
 }
 
-.footer {
+footer {
   display: flex;
   justify-content: center;
+}
+
+
+.footer {
   height: 300px;
 }
 
