@@ -34,7 +34,7 @@ body {
     align-items: center;
     height: 700px;
     width: 1000px;
-    background-image: url("../images/missionbg.jpg")
+    background-image: url("./images/missionbg.jpg")
 }
 
 .mission #mission {
