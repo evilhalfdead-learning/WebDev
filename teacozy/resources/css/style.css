@@ -51,7 +51,6 @@ main {
   flex-flow: row wrap;
   width: 1000px;
   text-align: center;
-  background-color: black;
 }
 
 #tea img {
@@ -72,6 +71,7 @@ main {
 #locations .loc {
   width: 300px;
   opacity: 1;
+  background-color: black;
 }
 
 .footer {
