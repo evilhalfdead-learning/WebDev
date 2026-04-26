@@ -70,9 +70,10 @@ main {
 
 #locations .loc {
   width: 300px;
-  height: auto;
+  height: 300px;
   opacity: 1;
   background-color: black;
+  padding-top: 15px;
 }
 
 .footer {
