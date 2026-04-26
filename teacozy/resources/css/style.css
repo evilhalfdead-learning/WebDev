@@ -28,20 +28,18 @@ body {
     text-decoration: underline;
 }
 
-main {
-    margin: 50px;
-}
-
 .mission {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 700px;
     width: 1000px;
+    background-image: url("../images/missionbg.jpg")
 }
 
 .mission #mission {
-    backround-image: url("./images/missionbg.jpg")
+    background-color: black;
+    width: 1200px;
     opacity: 1;
 }
 
