@@ -4,7 +4,6 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    text-align: center;
 }
 
 .heading {
@@ -35,6 +34,10 @@ body {
     height: 700px;
     width: 1000px;
     background-image: url("../images/missionbg.jpg")
+}
+
+main {
+    text-align: center;
 }
 
 .mission #mission {
