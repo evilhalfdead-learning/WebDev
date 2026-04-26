@@ -46,3 +46,15 @@ main {
     opacity: 1;
 }
 
+.tea {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1000px;
+  text-align: center;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+
