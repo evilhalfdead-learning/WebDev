@@ -32,7 +32,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 700px;
-    width: 100%;
+    width: 1000px;
     background-image: url("../images/missionbg.jpg")
 }
 
@@ -59,3 +59,26 @@ main {
   padding-bottom: 10px;
 }
 
+#locations {
+  background-image: url("../images/locationsbg.jpg")
+  height: 500px;
+  width: 1000px;
+  display: inline-flex;
+  flex-flow: row nowrap;
+}
+
+#locations .loc {
+  width: 300px;
+}
+
+footer {
+display: flex;
+}
+
+#contact {
+  text-align: center;
+}
+
+#copyright {
+  left: 0
+}
