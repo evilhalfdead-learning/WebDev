@@ -71,8 +71,9 @@ main {
   width: 300px;
 }
 
-footer {
+.footer {
 display: flex;
+flex-direction: column;
 }
 
 #contact {
