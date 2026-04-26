@@ -73,11 +73,7 @@ main {
 
 .footer {
 display: flex;
-flex-direction: column;
-}
-
-#contact {
-  text-align: center;
+justify-content: center;
 }
 
 #copyright {
