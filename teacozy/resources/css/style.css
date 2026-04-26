@@ -67,6 +67,7 @@ main {
   display: inline-flex;
   flex-flow: row nowrap;
   align-content: center;
+  justify-content: center;
 }
 
 #locations .loc {
