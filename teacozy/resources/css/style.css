@@ -54,7 +54,11 @@ main {
   text-align: center;
 }
 
-#tea img {
+#berry,
+#rum,
+#donut,
+#myrtle,
+#bedford {
   width: 300px;
   height: 200px;
   padding-bottom: 10px;
