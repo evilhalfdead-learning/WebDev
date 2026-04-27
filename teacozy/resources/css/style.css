@@ -15,7 +15,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 1;
-  background-color: black;
+    background-color: black;
 }
 
 .heading img {
@@ -52,6 +52,7 @@ main {
   flex-flow: row wrap;
   width: 1000px;
   justify-content: center;
+  margin: 10px;
 }
 
 #berry,
