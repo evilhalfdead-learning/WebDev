@@ -38,7 +38,7 @@ body {
 }
 
 main {
-    
+    text-align: center;
 }
 
 .mission #mission {
@@ -51,7 +51,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   width: 1000px;
-  text-align: center;
+  justify-content: center;
 }
 
 #berry,
