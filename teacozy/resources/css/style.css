@@ -30,7 +30,7 @@ body {
 
 .mission {
     display: flex;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     height: 700px;
     width: 1000px;
