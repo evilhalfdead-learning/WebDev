@@ -9,7 +9,6 @@ body {
 }
 
 .heading {
-    display: inline-flex;
     justify-content: space-between;
     height: 69px;
     width: 100%;
@@ -23,11 +22,17 @@ body {
 .heading img {
     margin: 10px;
     height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #nav a {
     color: seashell;
     text-decoration: underline;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .mission {
