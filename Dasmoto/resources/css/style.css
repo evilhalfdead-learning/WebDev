@@ -1,16 +1,12 @@
-h1,
-h2,
-h3,
-p {
+html {
     font-family: Helvetica;
 }
 
 h1{
-    font-size: 100px;
+    font-size: 10rem;
     font-weight: bold;
     color: khaki;
-    text-align: center;
-    background-image: url('./resources/images/pattern.jpeg');
+    background-image: url('../images/pattern.jpeg');
 }
 
 #brushes h2 {
