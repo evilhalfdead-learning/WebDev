@@ -21,6 +21,57 @@ main {
   font-family: 'Underdog', sans-serif;
 }
 
+.breadcrumb {
+  text-align: left;
+}
+.breadcrumb li {
+  float: left;
+}
+
+.breadcrumb a {
+  color: #e40;
+  background: #666;
+  text-decoration: none;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 15px;
+  padding: 0 5px;
+}
+
+.breadcrumb a::before,
+.breadcrumb a::after {
+  content: "";
+  position: absolute;
+  border-color: #666;
+  border-style: solid;
+  border-width: 15px 5px;
+}
+
+.breadcrumb a::before {
+  left: -10px;
+  border-left-color: transparent;
+}
+.breadcrumb a::after {
+  left: 100%;
+  border-color: transparent;
+  border-left-color: #666;
+}
+
+.breadcrumb a:hover {
+  background-color: blue;
+}
+
+.breadcrumb a:hover::before {
+  border-color: blue;
+  border-left-color: transparent
+}
+
+.breadcrumb a:hover::after {
+  border-left-color: blue;
+}
+
 body {
     background-color: #222;
     color: #ccc;
@@ -89,15 +140,6 @@ a {
   font-size: 18px;
 }
 
-.converter h2 {
-  font-size: 32px;
-  text-align: center;
-}
-
-.converter p {
-  text-align: center;
-}
-
 .learning {
   flex-direction: column;
 }
@@ -115,10 +157,4 @@ a {
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
-}
-
-#converter {
-  display: flex;
-  justify-content: space-evenly;
-  height: 50px;
 }

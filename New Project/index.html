@@ -15,6 +15,12 @@
             <h1>Half Dead</h1>
         </header>
         <main>
+          <nav class="breadcrumb">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="converter.html">Converter</a></li>
+              </ul>
+            </nav>
               <div id="hmm">
                 <article class="learning">
                   <p>I'm learning to code. My goals include:</p>
@@ -39,17 +45,6 @@
                 </form>
             </article>
             <article class="converter">
-              <h2>Unit Converter</h2>
-              <div id="converter">
-                <input type="number" placeholder="Enter a number" id="userInput">
-                <select id="unit">
-                <option value="kmToMiles">Kilometers to Miles</option>
-                <option value="milesToKm">Miles to Kilometers</option>
-                </select>
-                <button class="convert" onclick="convert()">Convert</button>
-              </div>
-              <p>Result: <span id="resultElement">0</span></p>
-            </article>
         </main>
 <!== 
 .breadcrumb {
