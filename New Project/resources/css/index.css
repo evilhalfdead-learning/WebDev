@@ -60,16 +60,16 @@ main {
 }
 
 .breadcrumb a:hover {
-  background-color: blue;
+  background-color: #999;
 }
 
 .breadcrumb a:hover::before {
-  border-color: blue;
+  border-color: #999;
   border-left-color: transparent
 }
 
 .breadcrumb a:hover::after {
-  border-left-color: blue;
+  border-left-color: #999;
 }
 
 body {
