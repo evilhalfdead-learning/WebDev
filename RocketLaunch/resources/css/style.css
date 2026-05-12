@@ -46,6 +46,7 @@ header nav a {
   flex-wrap: wrap;
   width: auto;
   margin: 100px;
+  border-bottom: 1px solid lightblue;
 }
 
 h2 {
@@ -60,6 +61,7 @@ h2 {
   align-content: center;
   text-align: center;
   margin: 100px;
+  border-bottom: 1px solid lightblue;
 }
 
 #services img {
@@ -79,6 +81,7 @@ h2 {
   flex-wrap: wrap;
   width: auto;
   margin: 100px;
+  border-bottom: 1px solid lightblue;
 }
 
 #staff h2 {
