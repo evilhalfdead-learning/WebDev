@@ -75,9 +75,8 @@ h2 {
 
 #staff {
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
-  align-content: center;
+  align-content: space-evenly;
   flex-wrap: wrap;
   width: auto;
   margin: 100px;
@@ -86,6 +85,21 @@ h2 {
 
 #staff h2 {
   text-align: center;
+}
+
+#staff .rachel {
+  display: flex;
+  flex-direction: column;
+}
+
+#staff .lalafell {
+  display: flex;
+  flex-direction: column;
+}
+
+#staff .henry {
+  display: flex;
+  flex-direction: column;
 }
 
 #staff img {
