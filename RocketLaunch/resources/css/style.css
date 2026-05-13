@@ -73,7 +73,7 @@ h2 {
   width:  max-content;
 }
 
-#staff {
+#staff #photos {
   display: flex;
   justify-content: space-evenly;
   align-content: space-evenly;
@@ -87,17 +87,7 @@ h2 {
   text-align: center;
 }
 
-#staff .rachel {
-  display: flex;
-  flex-direction: column;
-}
-
-#staff .lalafell {
-  display: flex;
-  flex-direction: column;
-}
-
-#staff .henry {
+#staff .employees {
   display: flex;
   flex-direction: column;
 }
