@@ -1,17 +1,33 @@
 function convert() {
-const inputValue = document.getElementById("userInput").value;
-const unit = document.getElementById("unit").value;
-const milesToKm = unit === "milesToKm";
-let result = 0
-if (milesToKm === true) {
-result = inputValue * 1.60934;
-} else {
-result = inputValue / 1.60934;
+    const inputValue = document.getElementById("input-value").value;
+    const fromUnit = document.getElementById("from-unit").value;
+    const toUnit = document.getElementById("to-unit").value;
+
+    let outputValue = inputValue;
+
+    if (fromUnit === "inches" && toUnit === "centimeters") {
+        outputValue = inputValue * 2.54;
+    } else if (fromUnit === "centimeters" && toUnit === "inches") {
+        outputValue = inputValue / 2.54;
+    } else if (fromUnit === "pounds" && toUnit === "kilograms") {
+        outputValue = inputValue * 0.453592;
+    } else if (fromUnit === "kilograms" && toUnit === "pounds") {
+        outputValue = inputValue / 0.453592;
+    } else if (fromUnit === "fahrenheit" && toUnit === "celsius") {
+        outputValue = (inputValue - 32) * (5/9);
+    } else if (fromUnit === "celsius" && toUnit === "fahrenheit") {
+        outputValue = (inputValue * (9/5)) + 32;
+    } else {
+        outputValue = "Invalid conversion";
+    }
+
+    document.getElementById("output-value").innerHTML = outputValue;
 }
 
-const resultString = inputValue + " miles are " + result + "km";
-const resultElement = document.getElementById("resultElement");
-resultElement.innerHTML = resultString;
+document.getElementById("convert-btn").addEventListener("click", convert);
 
-console.log(resultString);
+
+function showImage() {
+    const image = document.getElementById("muffin-image");
+    image.style.display = "block";
 }
