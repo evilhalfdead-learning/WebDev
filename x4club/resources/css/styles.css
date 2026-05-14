@@ -88,3 +88,14 @@ header p {
     border-bottom: 1px solid #99d700;
     width: auto;
 }
+
+@media screen and (width <= 300px) {
+    header {
+        1.5rem;
+    }
+
+    img {
+        height: 100px;
+        width: 150px;
+    }
+}
