@@ -91,7 +91,7 @@ header p {
 
 @media screen and (width <= 300px) {
     header {
-        1.5rem;
+        font-size: 1.5rem;
     }
 
     img {
