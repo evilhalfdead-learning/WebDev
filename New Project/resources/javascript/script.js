@@ -30,4 +30,13 @@ document.getElementById("convert-btn").addEventListener("click", convert);
 function showImage() {
     const image = document.getElementById("muffin-image");
     image.style.display = "block";
+    const button = document.getElementByClassName("muffin");
+    button.style.display = "none";
+}
+
+function showVegeta() {
+    const image = document.getElementById("vegeta");
+    image.style.display = "block";
+    const button = document.getElementById("vegetaButton");
+    button.style.display = "none";
 }
