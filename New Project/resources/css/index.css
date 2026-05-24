@@ -119,6 +119,12 @@ a {
   color: #6d4702;
 }
 
+#muffinImage {
+  display: none;
+  width: 600px;
+  height: auto;
+}
+
 .learning {
   flex-direction: column;
 }
@@ -157,6 +163,7 @@ a {
 }
 
 .buttonTest img {
+  display: none;
   width: 400px;
   height: auto;
 }
