@@ -104,7 +104,7 @@ a {
   text-decoration: none;
 }
 
-.muffin {
+#muffin {
   color: tan;
   background-color: #666;
   border-radius: 5px;
@@ -115,7 +115,7 @@ a {
   padding: 0 30px;
 }
 
-.muffin:hover {
+#muffin:hover {
   color: #6d4702;
 }
 
@@ -127,7 +127,7 @@ a {
   flex-direction: column;
 }
 
-.muffinbutton {
+#muffinButton {
   justify-content: center;
   display: flex;
 }
@@ -146,15 +146,17 @@ a {
 }
 
 .buttonTest button {
-  background-color: #222;
-  color: #ccc;
+  color: tan;
+  background-color: #666;
+  border-radius: 5px;
+  font-family: 'Grenze', serif;
   font-weight: bold;
   font-size: 16px;
-  border-radius: 16px;
-  border: 2px solid #666;
+  cursor: pointer;
+  padding: 0 30px;
 }
 
 .buttonTest img {
-  width: 200px;
+  width: 400px;
   height: auto;
 }

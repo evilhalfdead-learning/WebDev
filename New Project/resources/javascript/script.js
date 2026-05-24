@@ -28,9 +28,9 @@ document.getElementById("convert-btn").addEventListener("click", convert);
 
 
 function showImage() {
-    const image = document.getElementById("muffin-image");
+    const image = document.getElementById("muffinImage");
     image.style.display = "block";
-    const button = document.getElementByClassName("muffin");
+    const button = document.getElementById("muffin");
     button.style.display = "none";
 }
 
