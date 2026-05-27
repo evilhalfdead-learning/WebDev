@@ -3,6 +3,9 @@ function showImage() {
     image.style.display = "block";
     const button = document.getElementById("muffin");
     button.style.display = "none";
+    setTimeout(() => {        image.style.display = "none";
+        button.style.display = "block";
+    }, 2500);
 }
 
 function showVegeta() {
