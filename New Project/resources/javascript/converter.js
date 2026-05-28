@@ -28,20 +28,20 @@ document.addEventListener('DOMContentLoaded', () => {
 const unitCategory = {
 	inches: 'length', centimeters: 'length', miles: 'length', kilometers: 'length', feet: 'length', yards: 'length', meters: 'length',
 	pounds: 'mass', kilograms: 'mass', ounces: 'mass', grams: 'mass',
-	floz: 'volume', ml: 'volume', gallon: 'volume', liter: 'volume',
+	floz: 'volume', ml: 'volume', gallon: 'volume', liter: 'volume', cup: 'volume', tablespoon: 'volume', teaspoon: 'volume',
 	fahrenheit: 'temperature', celsius: 'temperature'
 };
 
 const baseFactors = {
 	length: { inches: 0.0254, centimeters: 0.01, miles: 1609.34, kilometers: 1000, feet: 0.3048, yards: 0.9144, meters: 1 },
 	mass: { pounds: 0.45359237, kilograms: 1, ounces: 0.028349523125, grams: 0.001 },
-	volume: { floz: 0.0295735, ml: 0.001, gallon: 3.78541, liter: 1 }
+	volume: { floz: 0.0295735, ml: 0.001, gallon: 3.78541, liter: 1, cup: 0.236588, tablespoon: 0.0147868, teaspoon: 0.00492892 }
 };
 
 const unitLabels = {
 	inches: 'in', feet: 'ft', yards: 'yd', centimeters: 'cm', meters: 'm', miles: 'mi', kilometers: 'km',
 	pounds: 'lb', kilograms: 'kg', ounces: 'oz', grams: 'g',
-	floz: 'fl oz', ml: 'ml', gallon: 'gal', liter: 'L',
+	floz: 'fl oz', ml: 'ml', gallon: 'gal', liter: 'L', cup: 'cup', tablespoon: 'tbsp', teaspoon: 'tsp',
 	fahrenheit: '°F', celsius: '°C'
 };
 
